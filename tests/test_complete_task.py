@@ -13,7 +13,6 @@ class TestCompleteTask(unittest.TestCase):
         
         for task in tasks:
             if task[0] == task_id:
-                self.assertTrue(task[2])  # Tamamlandı mı kontrol et
-
+                self.assertTrue(task[2])  
 if __name__ == '__main__':
     unittest.main()
